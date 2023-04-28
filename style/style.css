@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary--color: #e37c73;
+  --second--color: #a57f6c;
+  --third--color: ;
+}
+
+.margin-main {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 98%;
+}
+
+header {
+  background-color: #e37c73;
+  font-family: "Montserrat", sans-serif;
+}
+header .container-backgroud .top-header {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+header .container-backgroud .top-header .logo {
+  width: 30%;
+}
+header .container-backgroud .top-header .logo a {
+  text-decoration: none;
+}
+header .container-backgroud .top-header .logo a h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+header .container-backgroud .top-header .menu {
+  width: 100%;
+}
+header .container-backgroud .top-header .menu nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+header .container-backgroud .top-header .menu nav ul li {
+  color: white;
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */
