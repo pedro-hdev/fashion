@@ -19,15 +19,20 @@ header {
   font-family: "Montserrat", sans-serif;
 
   .container-backgroud {
+    background-image: url(../img/detalhes/riscos.svg),
+      url(../img/detalhes/ondas.png), url(../img/background/Rectangle\ 176.png),
+      url(../img/background/Rectangle\ 177.png);
+    background-position: left center, bottom, right top, left bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 15% 15%, 100% 40%, 30% 40%, 20% 50%;
+    height: 100%;
     .top-header {
-    
       padding-top: 30px;
       display: flex;
       align-items: center;
-       
-      .logo {
+      gap: 100px;
 
-        width: 30%;
+      .logo {
         a {
           text-decoration: none;
           h1 {
@@ -41,16 +46,122 @@ header {
         width: 100%;
         nav {
           ul {
-            
             display: flex;
             justify-content: space-between;
             list-style-type: none;
             align-items: center;
             li {
-              color: white;
-              font-size: 24px;
+              span {
+                a {
+                  font-weight: 800;
+                }
+              }
+              a {
+                text-decoration: none;
+                color: white;
+                font-size: 24px;
+                font-weight: 400;
+              }
+              button {
+                cursor: pointer;
+                width: 123.65px;
+                height: 49px;
+                background-color: transparent;
+                font-size: 16px;
+                font-weight: 700;
+                color: #ffffff;
+                border: 1px solid #ffffff;
+              }
             }
           }
+        }
+      }
+    }
+    .main-header {
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      justify-content: space-between;
+
+      .text-left {
+        h1 {
+          font-size: 68px;
+          font-weight: 700;
+          color: #ffffff;
+        }
+        p {
+          color: #ffffff;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 40px;
+        }
+        button {
+          margin-top: 30px;
+          cursor: pointer;
+          width: 170px;
+          height: 55px;
+          font-size: 24px;
+          font-weight: 700;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+          border: none;
+          background-color: #ffffff;
+        }
+      }
+      .woman {
+        width: 650px;
+
+        img {
+          &:nth-child(1) {
+            position: relative;
+            width: 110px;
+            top: 600px;
+            left: -15px;
+          }
+          &:nth-child(2) {
+            position: relative;
+            width: 110px;
+            top: 80px;
+            left: 440px;
+          }
+          &:nth-child(3) {
+            width: 600px;
+            height: 100%;
+            border-bottom-left-radius: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    .container-backgroud {
+      .main-header {
+        .text-left {
+          h1 {
+            font-size: 58px;
+          }
+          p {
+            font-size: 20px;
+          }
+        }
+        .woman {
+          scale: 0.9;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1100px) {
+  header {
+    .container-backgroud {
+      .main-header {
+        flex-direction: column;
+        .text-left {
+          padding-top: 20px;
+          width: 100%;
+          text-align: center;
         }
       }
     }
