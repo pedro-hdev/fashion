@@ -27,7 +27,7 @@ header {
     background-size: 10% 10%, 100% 40%, 30% 40%, 20% 50%;
     height: 100%;
     .top-header {
-      padding-top: 30px;
+      padding-top: 20px;
       display: flex;
       align-items: center;
       gap: 100px;
@@ -95,15 +95,15 @@ header {
       }
     }
     .main-header {
+      padding-top: 20px;
       display: flex;
-      align-items: center;
-      padding-bottom: 40px;
+
       justify-content: space-between;
 
       .text-left {
-        
+        padding-top: 60px;
         h1 {
-          font-size: 60px;
+          font-size: 63px;
           font-weight: 700;
           color: #ffffff;
         }
@@ -111,7 +111,7 @@ header {
           color: #ffffff;
           font-size: 24px;
           font-weight: 400;
-          line-height: 40px;
+          line-height: 35px;
         }
         button {
           margin-top: 30px;
@@ -126,20 +126,22 @@ header {
         }
       }
       .woman {
-      width: 42vw;
-      height: 100%;
+        width: 650px;
+        height: 100%;
+
         img {
           position: relative;
           &:nth-child(1) {
             float: right;
-            width: 7vw;
+            width: 100px;
             z-index: 100;
           }
           &:nth-child(2) {
-            display: flex;
-            align-content: flex-end;
-            width: 7vw;
-            
+            position: relative;
+            width: 100px;
+            top: 480px;
+            left: 70px;
+            z-index: 100;
           }
           &:nth-child(3) {
             position: relative;
@@ -147,9 +149,8 @@ header {
             top: 20%;
             left: 27%;
             transform: translate(-20%, -10%);
-            width: 34vw;
-          
-            border-bottom-left-radius: 200px;
+            width: 550px;
+            border-radius: 0 0 0 250px;
           }
         }
       }
@@ -169,12 +170,27 @@ header {
             font-size: 20px;
           }
         }
-        
+        .woman {
+          width: 550px;
+          img {
+            &:nth-child(1) {
+              width: 90px;
+            }
+            &:nth-child(2) {
+              width: 90px;
+              top: 410px;
+              left: 65px;
+            }
+            &:nth-child(3) {
+              width: 470px;
+            }
+          }
+        }
       }
     }
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   header {
     .container-backgroud {
       .top-header {
@@ -193,40 +209,55 @@ header {
       }
       .main-header {
         flex-direction: column;
+        align-items: center;
         .text-left {
           padding-top: 20px;
           width: 100%;
           text-align: center;
         }
+        .woman {
+          padding-top: 20px;
+        }
       }
     }
   }
 }
-/* @media screen and (max-width: 766px) {
+@media screen and (max-width: 610px) {
   header {
     .container-backgroud {
+      .top-header {
+        .logo {
+          a {
+            h1 {
+              font-size: 28px;
+            }
+          }
+        }
+      }
       .main-header {
         .text-left {
           h1 {
             font-size: 48px;
           }
+          p {
+            font-size: 16px;
+            line-height: 25px;
+          }
         }
         .woman {
-        
-          width: 400px;
-          img{
-            &:nth-child(1){
-                width: 100px;
-                left: 0px;
-                top: 500px;
+          width: 430px;
+          img {
+            &:nth-child(1) {
+              width: 80px;
             }
-            &:nth-child(2){
-              width: 100px;
-              left: 0px;
-
+            &:nth-child(2) {
+              width: 80px;
+              top: 330px;
+              left: 40px;
             }
-            &:nth-child(3){
-                width: 500px;
+            &:nth-child(3) {
+              width: 370px;
+              border-radius: 0 0 0 200px;
             }
           }
         }
@@ -234,17 +265,41 @@ header {
     }
   }
 }
-@media screen and (max-width: 512px) {
+
+@media screen and (max-width: 466px) {
   header {
     .container-backgroud {
       .main-header {
         .text-left {
           h1 {
-            font-size: 38px;
+            font-size: 36px;
+          }
+          p {
+            font-size: 14px;
+          }
+          button{
+            scale: 0.8;
+
+          }
+        }
+        .woman {
+          width: 300px;
+          img {
+            &:nth-child(1) {
+              width: 50px;
+            }
+            &:nth-child(2) {
+              width: 50px;
+              top: 230px;
+              left: 30px;
+            }
+            &:nth-child(3) {
+              width: 260px;
+              border-radius: 0 0 0 120px;
+            }
           }
         }
       }
     }
   }
 }
- */
