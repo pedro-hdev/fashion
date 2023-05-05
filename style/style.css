@@ -245,4 +245,126 @@ header .container-backgroud .main-header .woman img:nth-child(3) {
     width: 260px;
     border-radius: 0 0 0 120px;
   }
+}
+main {
+  font-family: "Montserrat", sans-serif;
+}
+main .top-main {
+  padding-top: 40px;
+}
+main .top-main .text-bloc {
+  text-align: center;
+}
+main .top-main .text-bloc h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+main .top-main .text-bloc p {
+  font-size: 24px;
+  font-weight: 400;
+}
+main .top-main .container-bloc {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .top-main .container-bloc .bloc {
+  margin-top: 25px;
+  width: 400px;
+  height: 450px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+main .top-main .container-bloc .bloc:nth-child(1) {
+  background-image: url(../img/women/woman-bloc1.png);
+}
+main .top-main .container-bloc .bloc:nth-child(2) {
+  background-image: url(../img/women/woman-bloc2.png);
+}
+main .top-main .container-bloc .bloc:nth-child(3) {
+  background-image: url(../img/women/woman-bloc3.png);
+}
+main .top-main .container-bloc .bloc button {
+  cursor: pointer;
+  position: relative;
+  top: 355px;
+  width: 80%;
+  height: 80px;
+  font-weight: 700;
+  font-size: 38px;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main .top-main .container-bloc .bloc:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.2s;
+}
+main .top-main .container-layout {
+  padding: 30px;
+}
+main .top-main .container-layout .layout-interno {
+  display: flex;
+}
+main .top-main .container-layout .layout-interno .two-girl img {
+  height: 500px;
+}
+main .top-main .container-layout .layout-interno .text-layout {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+main .top-main .container-layout .layout-interno .text-layout h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+main .top-main .container-layout .layout-externo {
+  width: 750px;
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+main .top-main .container-layout .layout-externo img {
+  height: 70px;
+}
+main .top-main .container-layout .layout-externo .layout-externo-text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .top-main .container-layout .layout-externo .layout-externo-text h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 633px) {
+  main .top-main .text-bloc h1 {
+    font-size: 40px;
+  }
+  main .top-main .text-bloc p {
+    font-size: 16px;
+  }
+  main .top-main .container-bloc {
+    padding-top: 0;
+  }
+  main .top-main .container-bloc .bloc {
+    width: 310px;
+    height: 350px;
+  }
+  main .top-main .container-bloc .bloc button {
+    scale: 0.8;
+    top: 260px;
+  }
 }/*# sourceMappingURL=style.css.map */
