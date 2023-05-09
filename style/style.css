@@ -360,129 +360,193 @@ main .top-main .container-layout .layout-externo .layout-externo-text h1 {
   font-size: 60px;
 }
 main .background-seller {
+  background-image: url(../img/detalhes/riscos.svg), url(../img/detalhes/ondas.png);
+  background-repeat: no-repeat;
+  background-position: -60px 350px, bottom;
+  background-size: 12% 12%, 100% 40%;
+  padding-top: 80px;
   background-color: var(--second--color);
+  padding-bottom: 80px;
 }
 main .background-seller .best-seller {
-  padding-top: 100px;
+  overflow-x: scroll;
+  padding: 20px;
   display: flex;
   gap: 20px;
 }
 main .background-seller .best-seller .card-carro {
+  flex: 0 0 auto;
   width: 350px;
-  height: 480px;
+  height: 400px;
 }
 main .background-seller .best-seller .card-carro h1 {
-  padding-top: 40px;
-  font-size: 60px;
+  padding-top: 20px;
+  font-size: 55px;
   font-weight: 700;
   color: #ffffff;
 }
 main .background-seller .best-seller .card-carro p {
-  padding-top: 50px;
+  padding-top: 30px;
   font-size: 20px;
   font-weight: 400;
   color: #ffffff;
 }
 main .background-seller .best-seller .card-carro button {
-  margin-top: 60px;
+  cursor: pointer;
+  margin-top: 50px;
   border: none;
   background-color: #ffffff;
   width: 170px;
   height: 50px;
   font-size: 20px;
   font-weight: 700;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+main .background-seller .best-seller .card-carro button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.2s;
 }
 main .background-seller .best-seller .card-girl {
+  flex: 0 0 auto;
   width: 350px;
-  height: 480px;
+  height: 400px;
 }
-main .background-seller .best-seller .card-girl .footer .stars img {
+main .background-seller .best-seller .card-girl .footer-card {
+  position: relative;
+  top: 300px;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+}
+main .background-seller .best-seller .card-girl .footer-card .stars img {
   width: 20px;
 }
+main .background-seller .best-seller .card-girl .footer-card h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+main .background-seller .best-seller .card-girl .footer-card p {
+  font-size: 18px;
+}
+main .background-seller .best-seller .card-girl:nth-child(2) {
+  background-image: url(../img/women/carroselwoman1.png);
+  background-size: 100%;
+}
+main .background-seller .best-seller .card-girl:nth-child(3) {
+  background-image: url(../img/women/carroselwoman2.png);
+  background-size: 100%;
+}
+main .background-seller .best-seller .card-girl:nth-child(4) {
+  background-image: url(../img/women/carroselwoman3.png);
+}
+main .background-seller .best-seller .card-girl:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.2s;
+}
+
 @media screen and (max-width: 1025px) {
-  main main .top-main .container-layout {
+  main .top-main .container-layout {
     padding: 0;
   }
-  main main .top-main .container-layout .layout-interno {
+  main .top-main .container-layout .layout-interno {
     flex-direction: column-reverse;
   }
-  main main .top-main .container-layout .layout-interno .two-girl {
+  main .top-main .container-layout .layout-interno .two-girl {
     padding-top: 40px;
   }
-  main main .top-main .container-layout .layout-interno .two-girl img {
+  main .top-main .container-layout .layout-interno .two-girl img {
     height: 450px;
   }
-  main main .top-main .container-layout .layout-interno .text-layout {
+  main .top-main .container-layout .layout-interno .text-layout {
     width: 100%;
     text-align: center;
   }
-  main main .top-main .container-layout .layout-interno .text-layout p {
+  main .top-main .container-layout .layout-interno .text-layout p {
     padding: 20px;
   }
-  main main .top-main .container-layout .layout-externo {
+  main .top-main .container-layout .layout-externo {
     margin: 0 auto;
     text-align: center;
     width: 500px;
     left: 0;
     top: -88px;
   }
-  main main .top-main .container-layout .layout-externo img {
+  main .top-main .container-layout .layout-externo img {
     height: 40px;
   }
-  main main .top-main .container-layout .layout-externo .layout-externo-text {
+  main .top-main .container-layout .layout-externo .layout-externo-text {
     padding: 10px;
   }
-  main main .top-main .container-layout .layout-externo .layout-externo-text h1 {
+  main .top-main .container-layout .layout-externo .layout-externo-text h1 {
     font-size: 40px;
   }
-  main main .top-main .container-layout .layout-externo .layout-externo-text h4 {
+  main .top-main .container-layout .layout-externo .layout-externo-text h4 {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 633px) {
-  main main .top-main .text-bloc h1 {
+  main .top-main .text-bloc h1 {
     font-size: 40px;
   }
-  main main .top-main .text-bloc p {
+  main .top-main .text-bloc p {
     font-size: 16px;
   }
-  main main .top-main .container-bloc {
+  main .top-main .container-bloc {
     padding-top: 0;
   }
-  main main .top-main .container-bloc .bloc {
+  main .top-main .container-bloc .bloc {
     width: 310px;
     height: 350px;
   }
-  main main .top-main .container-bloc .bloc button {
+  main .top-main .container-bloc .bloc button {
     scale: 0.8;
     top: 260px;
   }
-  main main .top-main .container-layout {
+  main .top-main .container-layout {
     padding: 0;
   }
-  main main .top-main .container-layout .layout-interno .two-girl img {
+  main .top-main .container-layout .layout-interno .two-girl img {
     height: 330px;
   }
-  main main .top-main .container-layout .layout-interno .text-layout h1 {
+  main .top-main .container-layout .layout-interno .text-layout h1 {
     font-size: 40px;
   }
-  main main .top-main .container-layout .layout-interno .text-layout p {
+  main .top-main .container-layout .layout-interno .text-layout p {
     font-size: 16px;
   }
-  main main .top-main .container-layout .layout-externo {
+  main .top-main .container-layout .layout-externo {
     width: 310px;
     top: -50px;
   }
-  main main .top-main .container-layout .layout-externo img {
+  main .top-main .container-layout .layout-externo img {
     height: 30px;
   }
-  main main .top-main .container-layout .layout-externo .layout-externo-text {
+  main .top-main .container-layout .layout-externo .layout-externo-text {
     padding: 5px;
   }
-  main main .top-main .container-layout .layout-externo .layout-externo-text h1 {
+  main .top-main .container-layout .layout-externo .layout-externo-text h1 {
     font-size: 20px;
   }
-  main main .top-main .container-layout .layout-externo .layout-externo-text h4 {
+  main .top-main .container-layout .layout-externo .layout-externo-text h4 {
     font-size: 10px;
+  }
+  main .background-seller {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  main .background-seller .best-seller {
+    gap: 10px;
+  }
+  main .background-seller .best-seller .card-carro {
+    scale: 0.9;
+  }
+  main .background-seller .best-seller .card-girl {
+    scale: 0.9;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -424,149 +424,215 @@ main {
     }
   }
   .background-seller {
+    background-image:  url(../img/detalhes/riscos.svg),url(../img/detalhes/ondas.png);
+    background-repeat: no-repeat;
+    background-position: -60px 350px, bottom;
+    background-size: 12% 12%, 100% 40%;
+    padding-top: 80px;
     background-color: var(--second--color);
+    padding-bottom: 80px;
     .best-seller {
-      padding-top: 100px;
+      overflow-x: scroll;
+      padding: 20px;
       display: flex;
       gap: 20px;
+
       .card-carro {
+        flex: 0 0 auto;
         width: 350px;
-        height: 480px;
+        height: 400px;
         h1 {
-          padding-top: 40px;
-          font-size: 60px;
+          padding-top: 20px;
+          font-size: 55px;
           font-weight: 700;
           color: #ffffff;
         }
         p {
-          padding-top: 50px;
+          padding-top: 30px;
           font-size: 20px;
           font-weight: 400;
           color: #ffffff;
         }
         button {
-          margin-top: 60px;
+          cursor: pointer;
+          margin-top: 50px;
           border: none;
           background-color: #ffffff;
           width: 170px;
           height: 50px;
           font-size: 20px;
           font-weight: 700;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+              0 3px 6px rgba(0, 0, 0, 0.23);
+            transition: 0.2s;
+          }
         }
       }
       .card-girl {
+        flex: 0 0 auto;
         width: 350px;
-        height: 480px;
-        .footer {
+        height: 400px;
+
+        .footer-card {
+          position: relative;
+          top: 300px;
+          padding-top: 10px;
+          padding-left: 20px;
+          width: 100%;
+          height: 100px;
+          background-color: #ffffff;
+
           .stars {
             img {
               width: 20px;
             }
           }
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 1025px) {
-    main {
-      .top-main {
-        .container-layout {
-          padding: 0;
-          .layout-interno {
-            flex-direction: column-reverse;
-            .two-girl {
-              padding-top: 40px;
-              img {
-                height: 450px;
-              }
-            }
-            .text-layout {
-              width: 100%;
-              text-align: center;
-              p {
-                padding: 20px;
-              }
-            }
-          }
-          .layout-externo {
-            margin: 0 auto;
-            text-align: center;
-            width: 500px;
-            left: 0;
-            top: -88px;
-            img {
-              height: 40px;
-            }
-            .layout-externo-text {
-              padding: 10px;
-              h1 {
-                font-size: 40px;
-              }
-              h4 {
-                font-size: 12px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 633px) {
-    main {
-      .top-main {
-        .text-bloc {
-          h1 {
-            font-size: 40px;
+          h4 {
+            font-weight: 700;
+            font-size: 18px;
           }
           p {
-            font-size: 16px;
+            font-size: 18px;
           }
         }
-        .container-bloc {
-          padding-top: 0;
-          .bloc {
-            width: 310px;
-            height: 350px;
-            button {
-              scale: 0.8;
-              top: 260px;
-            }
-          }
+        &:nth-child(2) {
+          background-image: url(../img/women/carroselwoman1.png);
+          background-size: 100%;
         }
-        .container-layout {
-          padding: 0;
-          .layout-interno {
-            .two-girl {
-              img {
-                height: 330px;
-              }
-            }
-            .text-layout {
-              h1 {
-                font-size: 40px;
-              }
-              p {
-                font-size: 16px;
-              }
-            }
-          }
-          .layout-externo {
-            width: 310px;
-            top: -50px;
-
+        &:nth-child(3) {
+          background-image: url(../img/women/carroselwoman2.png);
+          background-size: 100%;
+        }
+        &:nth-child(4) {
+          background-image: url(../img/women/carroselwoman3.png);
+        }
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+            0 3px 6px rgba(0, 0, 0, 0.23);
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1025px) {
+  main {
+    .top-main {
+      .container-layout {
+        padding: 0;
+        .layout-interno {
+          flex-direction: column-reverse;
+          .two-girl {
+            padding-top: 40px;
             img {
-              height: 30px;
-            }
-            .layout-externo-text {
-              padding: 5px;
-              h1 {
-                font-size: 20px;
-              }
-              h4 {
-                font-size: 10px;
-              }
+              height: 450px;
             }
           }
+          .text-layout {
+            width: 100%;
+            text-align: center;
+            p {
+              padding: 20px;
+            }
+          }
+        }
+        .layout-externo {
+          margin: 0 auto;
+          text-align: center;
+          width: 500px;
+          left: 0;
+          top: -88px;
+          img {
+            height: 40px;
+          }
+          .layout-externo-text {
+            padding: 10px;
+            h1 {
+              font-size: 40px;
+            }
+            h4 {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 633px) {
+  main {
+    .top-main {
+      .text-bloc {
+        h1 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+      .container-bloc {
+        padding-top: 0;
+        .bloc {
+          width: 310px;
+          height: 350px;
+          button {
+            scale: 0.8;
+            top: 260px;
+          }
+        }
+      }
+      .container-layout {
+        padding: 0;
+        .layout-interno {
+          .two-girl {
+            img {
+              height: 330px;
+            }
+          }
+          .text-layout {
+            h1 {
+              font-size: 40px;
+            }
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+        .layout-externo {
+          width: 310px;
+          top: -50px;
+
+          img {
+            height: 30px;
+          }
+          .layout-externo-text {
+            padding: 5px;
+            h1 {
+              font-size: 20px;
+            }
+            h4 {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+    .background-seller{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      .best-seller{
+        gap: 10px;
+        .card-carro{
+          scale: 0.9;
+        }
+        .card-girl{
+          scale: 0.9;
         }
       }
     }
