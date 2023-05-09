@@ -455,15 +455,9 @@ main {
         }
       }
       .card-girl {
-        img {
-          width: 100%;
-          height: 80%;
-        }
         width: 350px;
         height: 480px;
-        .footer-card {
-          
-          background-color: #ffffff;
+        .footer {
           .stars {
             img {
               width: 20px;
@@ -473,104 +467,104 @@ main {
       }
     }
   }
-}
-@media screen and (max-width: 1025px) {
-  main {
-    .top-main {
-      .container-layout {
-        padding: 0;
-        .layout-interno {
-          flex-direction: column-reverse;
-          .two-girl {
-            padding-top: 40px;
-            img {
-              height: 450px;
+  @media screen and (max-width: 1025px) {
+    main {
+      .top-main {
+        .container-layout {
+          padding: 0;
+          .layout-interno {
+            flex-direction: column-reverse;
+            .two-girl {
+              padding-top: 40px;
+              img {
+                height: 450px;
+              }
+            }
+            .text-layout {
+              width: 100%;
+              text-align: center;
+              p {
+                padding: 20px;
+              }
             }
           }
-          .text-layout {
-            width: 100%;
+          .layout-externo {
+            margin: 0 auto;
             text-align: center;
-            p {
-              padding: 20px;
+            width: 500px;
+            left: 0;
+            top: -88px;
+            img {
+              height: 40px;
             }
-          }
-        }
-        .layout-externo {
-          margin: 0 auto;
-          text-align: center;
-          width: 500px;
-          left: 0;
-          top: -88px;
-          img {
-            height: 40px;
-          }
-          .layout-externo-text {
-            padding: 10px;
-            h1 {
-              font-size: 40px;
-            }
-            h4 {
-              font-size: 12px;
+            .layout-externo-text {
+              padding: 10px;
+              h1 {
+                font-size: 40px;
+              }
+              h4 {
+                font-size: 12px;
+              }
             }
           }
         }
       }
     }
   }
-}
-@media screen and (max-width: 633px) {
-  main {
-    .top-main {
-      .text-bloc {
-        h1 {
-          font-size: 40px;
-        }
-        p {
-          font-size: 16px;
-        }
-      }
-      .container-bloc {
-        padding-top: 0;
-        .bloc {
-          width: 310px;
-          height: 350px;
-          button {
-            scale: 0.8;
-            top: 260px;
+  @media screen and (max-width: 633px) {
+    main {
+      .top-main {
+        .text-bloc {
+          h1 {
+            font-size: 40px;
+          }
+          p {
+            font-size: 16px;
           }
         }
-      }
-      .container-layout {
-        padding: 0;
-        .layout-interno {
-          .two-girl {
-            img {
-              height: 330px;
-            }
-          }
-          .text-layout {
-            h1 {
-              font-size: 40px;
-            }
-            p {
-              font-size: 16px;
+        .container-bloc {
+          padding-top: 0;
+          .bloc {
+            width: 310px;
+            height: 350px;
+            button {
+              scale: 0.8;
+              top: 260px;
             }
           }
         }
-        .layout-externo {
-          width: 310px;
-          top: -50px;
+        .container-layout {
+          padding: 0;
+          .layout-interno {
+            .two-girl {
+              img {
+                height: 330px;
+              }
+            }
+            .text-layout {
+              h1 {
+                font-size: 40px;
+              }
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+          .layout-externo {
+            width: 310px;
+            top: -50px;
 
-          img {
-            height: 30px;
-          }
-          .layout-externo-text {
-            padding: 5px;
-            h1 {
-              font-size: 20px;
+            img {
+              height: 30px;
             }
-            h4 {
-              font-size: 10px;
+            .layout-externo-text {
+              padding: 5px;
+              h1 {
+                font-size: 20px;
+              }
+              h4 {
+                font-size: 10px;
+              }
             }
           }
         }
