@@ -424,7 +424,8 @@ main {
     }
   }
   .background-seller {
-    background-image:  url(../img/detalhes/riscos.svg),url(../img/detalhes/ondas.png);
+    background-image: url(../img/detalhes/riscos.svg),
+      url(../img/detalhes/ondas.png);
     background-repeat: no-repeat;
     background-position: -60px 350px, bottom;
     background-size: 12% 12%, 100% 40%;
@@ -497,6 +498,10 @@ main {
           }
           p {
             font-size: 18px;
+            span {
+              text-decoration: line-through;
+              color: #0000003b;
+            }
           }
         }
         &:nth-child(2) {
@@ -623,15 +628,15 @@ main {
         }
       }
     }
-    .background-seller{
+    .background-seller {
       padding-top: 50px;
       padding-bottom: 50px;
-      .best-seller{
+      .best-seller {
         gap: 10px;
-        .card-carro{
+        .card-carro {
           scale: 0.9;
         }
-        .card-girl{
+        .card-girl {
           scale: 0.9;
         }
       }

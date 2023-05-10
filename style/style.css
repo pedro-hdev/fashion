@@ -432,6 +432,10 @@ main .background-seller .best-seller .card-girl .footer-card h4 {
 main .background-seller .best-seller .card-girl .footer-card p {
   font-size: 18px;
 }
+main .background-seller .best-seller .card-girl .footer-card p span {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.231372549);
+}
 main .background-seller .best-seller .card-girl:nth-child(2) {
   background-image: url(../img/women/carroselwoman1.png);
   background-size: 100%;
