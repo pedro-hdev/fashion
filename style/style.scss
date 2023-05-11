@@ -71,6 +71,7 @@ header {
                 font-weight: 700;
                 color: #ffffff;
                 border: 1px solid #ffffff;
+                
               }
             }
           }
@@ -123,6 +124,13 @@ header {
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
           border: none;
           background-color: #ffffff;
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+              0 3px 6px rgba(0, 0, 0, 0.23);
+            transition: 0.2s;
+          }
         }
       }
       .woman {
@@ -326,7 +334,7 @@ main {
       justify-content: space-around;
       flex-wrap: wrap;
 
-      .bloc {
+      .bloc{
         margin-top: 25px;
         width: 400px;
         height: 450px;
@@ -342,6 +350,7 @@ main {
         &:nth-child(3) {
           background-image: url(../img/women/woman-bloc3.png);
         }
+       
         button {
           cursor: pointer;
           position: relative;
@@ -521,6 +530,100 @@ main {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
             0 3px 6px rgba(0, 0, 0, 0.23);
           transition: 0.2s;
+        }
+      }
+    }
+  }
+  .ourproduct {
+    text-align: center;
+    padding-bottom: 150px;
+    .header-product {
+      padding-top: 50px;
+     
+      h1 {
+        font-size: 60px;
+        font-weight: 700;
+        
+      }
+      .menu-product {
+        width: 100%;
+        padding-top: 30px;
+        nav {
+          ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            justify-content: space-evenly;
+
+            li {
+              white-space: nowrap;
+              cursor: pointer;
+              font-size: 20px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .container-product {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 100px;
+      justify-content: space-around;
+      .bloc-product {
+        margin-top: 30px;
+        width: 300px;
+        height: 373px;
+        background-size: 100%;
+        &:nth-child(1) {
+          background-image: url(../img/our-pro/perfume.png);
+        }
+        &:nth-child(2) {
+          background-image: url(../img/our-pro/Bags.png);
+        }
+        &:nth-child(3) {
+          background-image: url(../img/our-pro/lipsticks.png);
+        }
+        &:nth-child(4) {
+          background-image: url(../img/our-pro/watches.png);
+        }
+        &:nth-child(5) {
+          background-image: url(../img/our-pro/brushes.png);
+        }
+        &:nth-child(6) {
+          background-image: url(../img/our-pro/sunglasses.png);
+        }
+        &:nth-child(7) {
+          background-image: url(../img/our-pro/footwear.png);
+        }
+        &:nth-child(8) {
+          background-image: url(../img/our-pro/jewellery.png);
+        }
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+            0 3px 6px rgba(0, 0, 0, 0.23);
+          transition: 0.2s;
+        }
+        .footer-card {
+          .stars {
+            img {
+              width: 22px;
+            }
+          }
+          padding: 15px;
+          background-color: #ffffff;
+          position: relative;
+          top: 274px;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          text-align: left;
+          h4 {
+            font-size: 18px;
+          }
+          p {
+            font-size: 18px;
+          }
         }
       }
     }
