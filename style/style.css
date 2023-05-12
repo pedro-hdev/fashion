@@ -461,7 +461,7 @@ main .background-seller .best-seller .card-girl:hover {
 }
 main .ourproduct {
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 main .ourproduct .header-product {
   padding-top: 50px;
@@ -479,6 +479,7 @@ main .ourproduct .header-product .menu-product nav ul {
   justify-content: center;
   list-style-type: none;
   justify-content: space-evenly;
+  gap: 20px;
 }
 main .ourproduct .header-product .menu-product nav ul li {
   white-space: nowrap;
@@ -489,8 +490,9 @@ main .ourproduct .header-product .menu-product nav ul li {
 main .ourproduct .container-product {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 100px;
+  padding-top: 90px;
   justify-content: space-around;
+  gap: 10px;
 }
 main .ourproduct .container-product .bloc-product {
   margin-top: 30px;
@@ -545,6 +547,10 @@ main .ourproduct .container-product .bloc-product .footer-card h4 {
 main .ourproduct .container-product .bloc-product .footer-card p {
   font-size: 18px;
 }
+main .ourproduct .container-product .bloc-product .footer-card p span {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.231372549);
+}
 
 @media screen and (max-width: 1025px) {
   main .top-main .container-layout {
@@ -584,6 +590,14 @@ main .ourproduct .container-product .bloc-product .footer-card p {
   }
   main .top-main .container-layout .layout-externo .layout-externo-text h4 {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 770px) {
+  main .ourproduct .header-product .menu-product nav ul {
+    flex-direction: column;
+  }
+  main .ourproduct .header-product .ourproduct .container-product {
+    padding-top: 50px;
   }
 }
 @media screen and (max-width: 633px) {
@@ -643,6 +657,19 @@ main .ourproduct .container-product .bloc-product .footer-card p {
     scale: 0.9;
   }
   main .background-seller .best-seller .card-girl {
+    scale: 0.9;
+  }
+  main .ourproduct .header-product h1 {
+    font-size: 40px;
+  }
+  main .ourproduct .header-product .menu-product nav ul li {
+    font-size: 16px;
+  }
+  main .ourproduct .container-product {
+    padding-top: 20px;
+  }
+  main .ourproduct .container-product .bloc-product {
+    margin-top: 0px;
     scale: 0.9;
   }
 }/*# sourceMappingURL=style.css.map */

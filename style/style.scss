@@ -71,7 +71,6 @@ header {
                 font-weight: 700;
                 color: #ffffff;
                 border: 1px solid #ffffff;
-                
               }
             }
           }
@@ -334,7 +333,7 @@ main {
       justify-content: space-around;
       flex-wrap: wrap;
 
-      .bloc{
+      .bloc {
         margin-top: 25px;
         width: 400px;
         height: 450px;
@@ -350,7 +349,7 @@ main {
         &:nth-child(3) {
           background-image: url(../img/women/woman-bloc3.png);
         }
-       
+
         button {
           cursor: pointer;
           position: relative;
@@ -536,14 +535,13 @@ main {
   }
   .ourproduct {
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     .header-product {
       padding-top: 50px;
-     
+
       h1 {
         font-size: 60px;
         font-weight: 700;
-        
       }
       .menu-product {
         width: 100%;
@@ -554,7 +552,7 @@ main {
             justify-content: center;
             list-style-type: none;
             justify-content: space-evenly;
-
+            gap: 20px;
             li {
               white-space: nowrap;
               cursor: pointer;
@@ -568,8 +566,9 @@ main {
     .container-product {
       display: flex;
       flex-wrap: wrap;
-      padding-top: 100px;
+      padding-top: 90px;
       justify-content: space-around;
+      gap: 10px;
       .bloc-product {
         margin-top: 30px;
         width: 300px;
@@ -623,6 +622,10 @@ main {
           }
           p {
             font-size: 18px;
+            span {
+              text-decoration: line-through;
+              color: #0000003b;
+            }
           }
         }
       }
@@ -667,6 +670,26 @@ main {
             h4 {
               font-size: 12px;
             }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 770px) {
+  main {
+    .ourproduct {
+      .header-product {
+        .menu-product {
+          nav {
+            ul {
+              flex-direction: column;
+            }
+          }
+        }
+        .ourproduct {
+          .container-product {
+            padding-top: 50px;
           }
         }
       }
@@ -740,6 +763,29 @@ main {
           scale: 0.9;
         }
         .card-girl {
+          scale: 0.9;
+        }
+      }
+    }
+    .ourproduct {
+      .header-product {
+        h1 {
+          font-size: 40px;
+        }
+        .menu-product {
+          nav {
+            ul {
+              li {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .container-product{
+         padding-top: 20px;
+        .bloc-product{
+          margin-top: 0px;
           scale: 0.9;
         }
       }
