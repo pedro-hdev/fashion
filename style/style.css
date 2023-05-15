@@ -672,4 +672,103 @@ main .ourproduct .container-product .bloc-product .footer-card p span {
     margin-top: 0px;
     scale: 0.9;
   }
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+}
+footer .background-deal {
+  background-color: var(--primary--color);
+  background-image: url(../img/background/Rectangle\ 176.png), url(../img/background/Rectangle\ 177.png);
+  background-repeat: no-repeat;
+  background-position: right top, left bottom;
+  background-size: 30% 40%, 20% 50%;
+}
+footer .background-deal .deal-of-the-day {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .background-deal .deal-of-the-day .text-deal h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 700;
+}
+footer .background-deal .deal-of-the-day .text-deal p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+footer .background-deal .deal-of-the-day .text-deal .hora {
+  padding-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+footer .background-deal .deal-of-the-day .text-deal .hora .hora-bloc {
+  width: 135px;
+  height: 130px;
+  background-color: #ffffff;
+  text-align: center;
+}
+footer .background-deal .deal-of-the-day .text-deal .hora .hora-bloc h3 {
+  padding-top: 36px;
+  font-size: 30px;
+}
+footer .background-deal .deal-of-the-day .text-deal .hora .hora-bloc p {
+  padding-top: 0;
+  color: black;
+  font-size: 15px;
+}
+footer .background-deal .deal-of-the-day .text-deal button {
+  margin-top: 40px;
+  cursor: pointer;
+  width: 170px;
+  height: 55px;
+  font-size: 24px;
+  font-weight: 700;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  background-color: black;
+  color: #ffffff;
+}
+footer .background-deal .deal-of-the-day .text-deal button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.2s;
+}
+footer .background-deal .deal-of-the-day .woman-deal {
+  width: 550px;
+  height: 100%;
+}
+footer .background-deal .deal-of-the-day .woman-deal img {
+  position: relative;
+}
+footer .background-deal .deal-of-the-day .woman-deal img:nth-child(1) {
+  position: relative;
+  left: 470px;
+  top: 100px;
+  width: 100px;
+  z-index: 100;
+}
+footer .background-deal .deal-of-the-day .woman-deal img:nth-child(2) {
+  position: relative;
+  width: 100px;
+  top: 560px;
+  left: -110px;
+  z-index: 100;
+}
+footer .background-deal .deal-of-the-day .woman-deal img:nth-child(3) {
+  position: relative;
+  z-index: 2;
+  top: -40px;
+  left: 60px;
+  width: 450px;
+}
+
+@media screen and (max-width: 1000px) {
+  footer .background-deal .deal-of-the-day {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
