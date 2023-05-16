@@ -767,8 +767,118 @@ footer .background-deal .deal-of-the-day .woman-deal img:nth-child(3) {
   width: 450px;
 }
 
+@media screen and (max-width: 1200px) {
+  footer .background-deal .deal-of-the-day .text-deal h1 {
+    font-size: 52px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal p {
+    font-size: 18px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal .hora {
+    justify-content: space-around;
+  }
+  footer .background-deal .deal-of-the-day .text-deal .hora .hora-bloc {
+    width: 120px;
+    height: 115px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal .hora .hora-bloc h3 {
+    padding-top: 25px;
+  }
+}
 @media screen and (max-width: 1000px) {
   footer .background-deal .deal-of-the-day {
     flex-direction: column;
+  }
+  footer .background-deal .deal-of-the-day .text-deal {
+    padding-top: 20px;
+    text-align: center;
+  }
+  footer .background-deal .deal-of-the-day .text-deal h1 {
+    padding-top: 30px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal p {
+    padding-top: 40px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal .hora {
+    padding-top: 40px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal button {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 640px) {
+  footer .background-deal .deal-of-the-day .text-deal h1 {
+    font-size: 40px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal p {
+    font-size: 16px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal .hora .hora-bloc {
+    width: 100px;
+    height: 95px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal .hora .hora-bloc h3 {
+    padding-top: 20px;
+  }
+  footer .background-deal .deal-of-the-day .text-deal button {
+    scale: 0.9;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal {
+    width: 400px;
+    height: 100%;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal img {
+    position: relative;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal img:nth-child(1) {
+    position: relative;
+    left: 350px;
+    top: 60px;
+    width: 80px;
+    z-index: 100;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal img:nth-child(2) {
+    position: relative;
+    width: 80px;
+    top: 430px;
+    left: -100px;
+    z-index: 100;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal img:nth-child(3) {
+    position: relative;
+    z-index: 2;
+    top: -40px;
+    left: 35px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 490px) {
+  footer .background-deal .deal-of-the-day .woman-deal {
+    width: 320px;
+    height: 100%;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal img {
+    position: relative;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal img:nth-child(1) {
+    position: relative;
+    left: 290px;
+    top: 60px;
+    width: 80px;
+    z-index: 100;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal img:nth-child(2) {
+    position: relative;
+    width: 80px;
+    top: 430px;
+    left: -100px;
+    z-index: 100;
+  }
+  footer .background-deal .deal-of-the-day .woman-deal img:nth-child(3) {
+    position: relative;
+    z-index: 2;
+    top: -40px;
+    left: 15px;
+    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
