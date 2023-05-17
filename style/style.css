@@ -766,6 +766,19 @@ footer .background-deal .deal-of-the-day .woman-deal img:nth-child(3) {
   left: 60px;
   width: 450px;
 }
+footer .background-final {
+  background-color: var(--second--color);
+}
+footer .background-final .footer-final {
+  display: flex;
+}
+footer .background-final .footer-final .woman-final {
+  position: relative;
+  top: -50px;
+}
+footer .background-final .footer-final .woman-final img {
+  width: 400px;
+}
 
 @media screen and (max-width: 1200px) {
   footer .background-deal .deal-of-the-day .text-deal h1 {
@@ -854,7 +867,7 @@ footer .background-deal .deal-of-the-day .woman-deal img:nth-child(3) {
 }
 @media screen and (max-width: 490px) {
   footer .background-deal .deal-of-the-day .woman-deal {
-    width: 320px;
+    width: 290px;
     height: 100%;
   }
   footer .background-deal .deal-of-the-day .woman-deal img {
@@ -862,23 +875,23 @@ footer .background-deal .deal-of-the-day .woman-deal img:nth-child(3) {
   }
   footer .background-deal .deal-of-the-day .woman-deal img:nth-child(1) {
     position: relative;
-    left: 290px;
-    top: 60px;
-    width: 80px;
+    left: 250px;
+    top: 40px;
+    width: 60px;
     z-index: 100;
   }
   footer .background-deal .deal-of-the-day .woman-deal img:nth-child(2) {
     position: relative;
-    width: 80px;
-    top: 430px;
-    left: -100px;
+    width: 60px;
+    top: 325px;
+    left: -90px;
     z-index: 100;
   }
   footer .background-deal .deal-of-the-day .woman-deal img:nth-child(3) {
     position: relative;
     z-index: 2;
     top: -40px;
-    left: 15px;
-    width: 300px;
+    left: 5px;
+    width: 270px;
   }
 }/*# sourceMappingURL=style.css.map */

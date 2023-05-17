@@ -891,6 +891,19 @@ footer {
       }
     }
   }
+  .background-final {
+    background-color: var(--second--color);
+    .footer-final {
+      display: flex;
+      .woman-final {
+        position: relative;
+        top: -50px;
+        img {
+          width: 400px;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 1200px) {
   footer {
@@ -1007,31 +1020,31 @@ footer {
     .background-deal {
       .deal-of-the-day {
         .woman-deal {
-          width: 320px;
+          width: 290px;
           height: 100%;
 
           img {
             position: relative;
             &:nth-child(1) {
               position: relative;
-              left: 290px;
-              top: 60px;
-              width: 80px;
+              left: 250px;
+              top: 40px;
+              width: 60px;
               z-index: 100;
             }
             &:nth-child(2) {
               position: relative;
-              width: 80px;
-              top: 430px;
-              left: -100px;
+              width: 60px;
+              top: 325px;
+              left: -90px;
               z-index: 100;
             }
             &:nth-child(3) {
               position: relative;
               z-index: 2;
               top: -40px;
-              left: 15px;
-              width: 300px;
+              left: 5px;
+              width: 270px;
             }
           }
         }
