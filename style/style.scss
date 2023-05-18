@@ -895,11 +895,96 @@ footer {
     background-color: var(--second--color);
     .footer-final {
       display: flex;
+      gap: 100px;
+
       .woman-final {
         position: relative;
         top: -50px;
         img {
-          width: 400px;
+          width: 450px;
+        }
+      }
+      .final-text {
+        width: 100%;
+        padding-top: 40px;
+        form {
+          border: 1px solid #ffffff;
+          border-radius: 60px;
+          height: 70px;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          input {
+            height: 70px;
+            background-color: transparent;
+            border: 60px;
+            width: 100%;
+            padding-left: 20px;
+            &:focus {
+              box-shadow: 0 0 0 0;
+              outline: 0;
+              font-size: 18px;
+              color: #ffffff;
+            }
+            &::placeholder {
+              font-size: 18px;
+              color: #ffffff;
+            }
+          }
+          button {
+            cursor: pointer;
+            border: none;
+            background-color: #d9d9d9;
+            height: 70px;
+            border-radius: 60px;
+            width: 600px;
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+        p {
+          padding-top: 20px;
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 400;
+        }
+        .footer-outros {
+          padding-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          .bloc-outros {
+            h4 {
+              color: #ffffff;
+              font-weight: 800;
+              font-size: 20px;
+            }
+            a {
+              text-decoration: none;
+              p {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        hr {
+          margin-top: 20px;
+          width: 100%;
+        }
+        .barra-final {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .rede-social {
+            padding-right: 10px;
+            padding-top: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            a {
+              text-decoration: none;
+            }
+          }
         }
       }
     }
