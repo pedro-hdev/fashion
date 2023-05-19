@@ -1014,11 +1014,25 @@ footer {
         }
       }
     }
+    .background-final {
+      .footer-final {
+        gap: 50px;
+
+        .final-text {
+          form {
+            button {
+              width: 350px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 @media screen and (max-width: 1000px) {
   footer {
     .background-deal {
+      padding-bottom: 50px;
       .deal-of-the-day {
         flex-direction: column;
         .text-deal {
@@ -1035,6 +1049,31 @@ footer {
           }
           button {
             margin-top: 50px;
+          }
+        }
+      }
+    }
+    .background-final {
+      padding-bottom: 20px;
+      .footer-final {
+        flex-direction: column;
+        gap: 10px;
+        .woman-final {
+          text-align: center;
+          left: 12px;
+        }
+        .final-text {
+          form {
+            margin-bottom: 20px;
+          }
+          p {
+            text-align: center;
+          }
+          h4 {
+            text-align: center;
+          }
+          .footer-outros {
+            margin-top: 20px;
           }
         }
       }
@@ -1098,6 +1137,32 @@ footer {
         }
       }
     }
+    .background-final {
+      .footer-final {
+        gap: 0px;
+        .woman-final {
+          img {
+            width: 350px;
+          }
+        }
+        .final-text {
+          form {
+            scale: 0.9;
+          }
+          p {
+            font-size: 16px;
+          }
+          .footer-outros {
+            p {
+              font-size: 16px;
+            }
+            h4 {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 @media screen and (max-width: 490px) {
@@ -1130,6 +1195,25 @@ footer {
               top: -40px;
               left: 5px;
               width: 270px;
+            }
+          }
+        }
+      }
+    }
+    .background-final {
+      .footer-final {
+        .woman-final {
+          left: -5px;
+          img {
+            width: 270px;
+          }
+        }
+        .final-text {
+          .footer-outros {
+            flex-direction: column;
+
+            .bloc-outros {
+              padding-top: 30px;
             }
           }
         }

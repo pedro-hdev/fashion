@@ -882,8 +882,17 @@ footer .background-final .footer-final .final-text .barra-final .rede-social a {
   footer .background-deal .deal-of-the-day .text-deal .hora .hora-bloc h3 {
     padding-top: 25px;
   }
+  footer .background-final .footer-final {
+    gap: 50px;
+  }
+  footer .background-final .footer-final .final-text form button {
+    width: 350px;
+  }
 }
 @media screen and (max-width: 1000px) {
+  footer .background-deal {
+    padding-bottom: 50px;
+  }
   footer .background-deal .deal-of-the-day {
     flex-direction: column;
   }
@@ -902,6 +911,29 @@ footer .background-final .footer-final .final-text .barra-final .rede-social a {
   }
   footer .background-deal .deal-of-the-day .text-deal button {
     margin-top: 50px;
+  }
+  footer .background-final {
+    padding-bottom: 20px;
+  }
+  footer .background-final .footer-final {
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer .background-final .footer-final .woman-final {
+    text-align: center;
+    left: 12px;
+  }
+  footer .background-final .footer-final .final-text form {
+    margin-bottom: 20px;
+  }
+  footer .background-final .footer-final .final-text p {
+    text-align: center;
+  }
+  footer .background-final .footer-final .final-text h4 {
+    text-align: center;
+  }
+  footer .background-final .footer-final .final-text .footer-outros {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -949,6 +981,24 @@ footer .background-final .footer-final .final-text .barra-final .rede-social a {
     left: 35px;
     width: 350px;
   }
+  footer .background-final .footer-final {
+    gap: 0px;
+  }
+  footer .background-final .footer-final .woman-final img {
+    width: 350px;
+  }
+  footer .background-final .footer-final .final-text form {
+    scale: 0.9;
+  }
+  footer .background-final .footer-final .final-text p {
+    font-size: 16px;
+  }
+  footer .background-final .footer-final .final-text .footer-outros p {
+    font-size: 16px;
+  }
+  footer .background-final .footer-final .final-text .footer-outros h4 {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 490px) {
   footer .background-deal .deal-of-the-day .woman-deal {
@@ -978,5 +1028,17 @@ footer .background-final .footer-final .final-text .barra-final .rede-social a {
     top: -40px;
     left: 5px;
     width: 270px;
+  }
+  footer .background-final .footer-final .woman-final {
+    left: -5px;
+  }
+  footer .background-final .footer-final .woman-final img {
+    width: 270px;
+  }
+  footer .background-final .footer-final .final-text .footer-outros {
+    flex-direction: column;
+  }
+  footer .background-final .footer-final .final-text .footer-outros .bloc-outros {
+    padding-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
