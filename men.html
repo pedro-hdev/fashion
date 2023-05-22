@@ -13,19 +13,57 @@
     <title>Men</title>
   </head>
   <style>
+    header .container-backgroud .top-header .logo a h1 {
+      color: black;
+    }
     header {
-      background-image: url(./img/men/men-background.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
-      height: 800px;
+      background-color: #d9d8d5;
     }
     header .container-backgroud {
       background-image: none;
     }
+    header .container-backgroud .main-header .men-image img {
+      position: relative;
+      top: -60px;
+      left: -140px;
+      width: 750px;
+    }
+    header .container-backgroud .main-header .men-image {
+      position: relative;
+      height: 667px;
+      width: 750px;
+    }
+    header .container-backgroud .main-header {
+      padding-top: 0;
+    }
+    header .container-backgroud .main-header .text-left h1 {
+      color: black;
+    }
+    header .container-backgroud .main-header .text-left p {
+      color: black;
+    }
+    header .container-backgroud .main-header .text-left button {
+      color: black;
+    }
+    header .container-backgroud .top-header .menu nav ul li a {
+      color: black;
+    }
+    header .container-backgroud .top-header .menu nav ul li button {
+      color: black;
+      border: 1px solid black;
+    }
+    @media screen and (max-width: 1000px) {
+      header .container-backgroud .main-header .men-image img {
+        top: 0px;
+        left: 0px;
+      }
+      header .container-backgroud .main-header .men-image {
+        height: 510px;
+      }
+    }
   </style>
   <body>
     <header>
-      
       <div class="container-backgroud">
         <div class="top-header margin-main">
           <div class="logo">
@@ -35,10 +73,10 @@
           <div class="menu">
             <nav>
               <ul>
-                <li><a href="#">MEN</a></li>
                 <li>
-                  <span><a href="#"> WOMAN</a></span>
+                  <span><a href="#">MEN</a></span>
                 </li>
+                <li><a href="index.html">WOMAN</a></li>
                 <li><a href="#"> KIDS</a></li>
                 <li><a href="#"> COLLECTION</a></li>
                 <li><a href="#"> TRENDS</a></li>
@@ -61,7 +99,7 @@
           <div class="text-left">
             <h1>
               Find The Best <br />
-              Men’s Style
+              Men's Style
             </h1>
             <p>
               Lorem Ipsum is simply dummy text of the <br />
@@ -71,10 +109,13 @@
             <button>SHOP NOW</button>
           </div>
           <!-- text-left -->
-          <div class="woman">
-            
+          <div class="men-image">
+            <img
+              src="img/men/men-background-PhotoRoom.png-PhotoRoom (1).png"
+              alt=""
+            />
           </div>
-          <!-- woman -->
+          <!-- men-image -->
         </div>
         <!-- main-header -->
       </div>
