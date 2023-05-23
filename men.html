@@ -24,9 +24,13 @@
     }
     header .container-backgroud .main-header .men-image img {
       position: relative;
-      top: -60px;
-      left: -140px;
+      top: -10px;
+      left: -100px;
       width: 750px;
+    }
+    header .container-backgroud .top-header .menu .menu-mobile button hr {
+      background-color: black;
+    
     }
     header .container-backgroud .main-header .men-image {
       position: relative;
@@ -35,6 +39,9 @@
     }
     header .container-backgroud .main-header {
       padding-top: 0;
+    }
+    header .container-backgroud .main-header .text-left {
+      padding-top: 115px;
     }
     header .container-backgroud .main-header .text-left h1 {
       color: black;
@@ -52,14 +59,62 @@
       color: black;
       border: 1px solid black;
     }
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1285px) {
       header .container-backgroud .main-header .men-image img {
-        top: 0px;
-        left: 0px;
+        left: 15px;
+        width: 670px;
       }
       header .container-backgroud .main-header .men-image {
-        height: 510px;
+        width: 670px;
+        height: 595px;
       }
+    }
+    @media screen and (max-width: 1121px) {
+      header .container-backgroud .main-header .men-image img {
+        left: 10px;
+        width: 560px;
+      }
+      header .container-backgroud .main-header .men-image {
+        width: 560px;
+        height: 495px;
+      }
+    }
+    @media screen and (max-width: 610px) {
+      header .container-backgroud .main-header .men-image img {
+        left: -5px;
+        width: 450px;
+      }
+      header .container-backgroud .main-header .men-image {
+        width: 450px;
+        height: 395px;
+      }
+    }
+    @media screen and (max-width: 467px) {
+      header .container-backgroud .main-header .men-image img {
+        left: -8px;
+        width: 320px;
+      }
+      header .container-backgroud .main-header .men-image {
+        width: 320px;
+        height: 278px;
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      header .container-backgroud .main-header .text-left {
+        padding-top: 50px;
+      }
+    }
+    main .top-main .container-bloc .bloc:nth-child(1) {
+      background-image: url(img/men/image\ 21.png);
+    }
+    main .top-main .container-bloc .bloc:nth-child(2) {
+      background-image: url(img/men/image\ 22.png);
+    }
+    main .top-main .container-bloc .bloc:nth-child(3) {
+      background-image: url(img/men/Rectangle\ 158.png);
+    }
+    main .top-main {
+      padding-bottom: 50px;
     }
   </style>
   <body>
@@ -110,10 +165,7 @@
           </div>
           <!-- text-left -->
           <div class="men-image">
-            <img
-              src="img/men/men-background-PhotoRoom.png-PhotoRoom (1).png"
-              alt=""
-            />
+            <img src="img/men/men-background-PhotoRoom-PhotoRoom.png" alt="" />
           </div>
           <!-- men-image -->
         </div>
@@ -121,5 +173,83 @@
       </div>
       <!-- container-background -->
     </header>
+    <main>
+      <div class="top-main margin-main">
+        <div class="text-bloc">
+          <h1>New Collection</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <!-- text-bloc -->
+        <div class="container-bloc">
+          <div class="bloc">
+            <button>Jackets</button>
+          </div>
+          <!-- bloc -->
+          <div class="bloc">
+            <button>T-Shirt</button>
+          </div>
+          <!-- bloc -->
+          <div class="bloc">
+            <button>Formal</button>
+          </div>
+          <!-- bloc -->
+        </div>
+        <!-- container-bloc -->
+      </div>
+    </main>
+    <footer>
+      <div class="background-final">
+        <div class="footer-final margin-main">
+          <div class="woman-final">
+            <img src="img/women/women-footer-2.png" alt="" />
+          </div>
+          <!-- woman-final -->
+          <div class="final-text">
+            <form action="">
+              <input type="email" placeholder="Your e-mail" />
+              <button>Subscribe Now!</button>
+            </form>
+            <p>
+              Lorem Ipsum is simply dummy text of the <br />
+              printing and typesetting industry. Lorem
+            </p>
+            <div class="footer-outros">
+              <div class="bloc-outros">
+                <h4>Partnership</h4>
+                <a href="#"><p>Websites</p></a>
+                <a href="#"><p>Social Media</p></a>
+                <a href="#"><p>Branding</p></a>
+              </div>
+              <!-- bloc-outros -->
+              <div class="bloc-outros">
+                <h4>About</h4>
+                <a href="#"><p>Our Projects</p></a>
+                <a href="#"><p>Careers</p></a>
+              </div>
+              <!-- bloc-outros -->
+              <div class="bloc-outros">
+                <h4>Support</h4>
+                <a href="#"><p>Support Request</p></a>
+                <a href="#"><p>Contact</p></a>
+              </div>
+              <!-- bloc-outros -->
+            </div>
+            <!-- footer-outros -->
+            <hr />
+            <div class="barra-final">
+              <p>All rights reserved 2022</p>
+              <div class="rede-social">
+                <a href=""><img src="img/redes/twiter.svg" alt="" /></a>
+                <a href=""><img src="img/redes/instagram.svg" alt="" /></a>
+                <a href=""><img src="img/redes/facebook.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <!-- final-text -->
+        </div>
+        <!-- footer-final -->
+      </div>
+      <!-- background-final -->
+    </footer>
   </body>
 </html>
